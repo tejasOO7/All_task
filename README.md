@@ -1,7 +1,7 @@
 ****************----LINUX------********************
 
 EXERCISE - 1 : basic command line questions with answers based on linux                                                                  .
-Exercise - 2 : shell script programs
+<b> Exercise - 2 : shell script programs
 
 ****************----HTML & CSS----*****************
 

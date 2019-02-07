@@ -1,0 +1,349 @@
+#menudiv ul 
+{
+	margin:0px;
+	padding: 0px;
+	float:right;
+}
+
+.horiz hr{
+
+  border: 1px solid red;
+
+}
+
+#menudiv ul li 
+{
+	font-size: 20px;
+	display:inline-block;
+	padding:34.5px;
+}
+
+#menudiv ul li ul li
+{
+	display:block;
+
+}
+#menudiv ul li ul li:hover 
+{
+	background-color:#16A4FA;
+	font-size: 20px;
+}
+#menudiv ul li ul 
+{
+
+	position: absolute;
+	top:90px;
+	background-color: #F0F0F0;
+	left:0px;
+	margin:0px;
+	padding: 0px;
+	
+}
+#servicesub
+{
+	display:none;
+}
+
+#menudiv ul li:hover > #servicesub 
+{
+	
+	display:block;
+
+}
+
+	
+#menudiv ul li:hover
+{
+	background:#16A4FA;
+}
+
+.logodiv
+{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.new1 h1 
+{
+	font-size: 45px;
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+
+.new2 h2
+{
+	font-size: 40px;
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.longp p
+{
+	color: grey;
+	padding-left: 250px;
+	padding-right: 250px;
+	font-size: 23px;
+	text-align: center;
+	padding-bottom: 70px;
+
+}
+	
+.longpq p
+{
+	color: grey;
+	padding-left: 250px;
+	padding-right: 250px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 70px;
+
+}	
+
+
+.boxes
+{
+
+	margin: 50px 50px;
+}
+#div_b
+{
+	background-color:  #e6e6ff;
+	text-align: center;	
+	width: 100%;
+	padding: 30px 30px;
+}
+
+
+
+#mp
+{
+	text-align: center;
+	float: left;
+	padding: 70px 70px;
+}
+#mp p
+{
+	font size: 10px;
+	color: #949497;
+}
+#mp h4
+{
+	color: #000;
+}
+
+
+
+/*  -----------------for 6 images css------------
+-----------------------------------------------*/
+
+
+#b_new_box
+{
+	
+	width: 100%;
+	padding: 30px 30px;
+}
+
+
+#box_new
+{
+	float: left;
+}
+
+#box_new img
+{
+
+	height: 100%;
+	padding-right: auto;
+	width: 100%;
+}
+
+input[type=text], select, textarea {
+	background-color: #e6e6ff;
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    border-color: black;
+    background-color: white;
+
+}
+input[type=submit] {
+  width: 100%;
+  width: 120px;
+  float: right;
+  background-color: #e6e6ff;
+  color: black;	
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius:	 4px;
+  cursor: pointer;
+}
+
+#b_box_input
+{
+	width: auto;
+	padding-bottom: 100px;	
+}
+
+
+#b_box_input label
+{
+	background-color:  #e6e6ff;
+	width: 100%;
+	padding: 20px 20px;
+	
+}
+
+#pad div
+{
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+/*   new css--------------
+-------------*/
+
+
+#fv
+{
+	width:100%;
+	background:url('/home/tejas/Desktop/HtmlPracticals/back.jpg');
+	background-position: center;
+	background-size:cover;
+	margin-top:80px;
+	background-position:center;
+	background-size: cover;"	
+
+}
+#overlay
+{
+	width:100%;
+	background:rgba(0,0,0,0.5);
+	padding-top:50px; 
+	padding-bottom:50px;
+}
+.headtext
+{
+	text-align: center;
+}
+.headtext h1
+{
+	color:white;
+}
+.headtext p
+{
+	font-size:15px;
+	color:gray;
+}
+.check input span
+{
+	font-size:15px;
+	margin-left:10px;
+	color:gray;
+}
+.txtcntrl
+{
+	border:1px solid;
+	border-color: white;
+	padding:10px;
+	color:white;
+	width:100%;
+	border-radius:3px;
+	background:none;
+}
+#btndiv
+{
+	padding-left:50px;padding-right:50px;
+}
+#submitbtn
+{
+	border:1px solid;padding:10px 20px 10px 20px;
+	border-color:#16A4FA;
+	color: white;	
+	margin-left: 30px;
+	background:none;
+
+	
+}
+
+#submitbtn:hover
+{
+	background: #16A4FA;
+
+	
+}
+
+#footer
+{
+	width:100%;
+	background:#f7f7f7;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.socialfont span
+{
+	font-size:3em;
+	color:#16A4FA;
+}
+.sociallatter
+{
+	margin:0px;
+	padding-top:30px;
+}
+.sociallatter p
+{
+	font-size:15px;
+	color:gray;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px	;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+

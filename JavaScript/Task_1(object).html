@@ -1,0 +1,53 @@
+<html>
+<head>
+<script>
+
+	let sa=[];
+	let arrE=[1,2,3,"Hello","JavaScript",5,6,8,9];
+	let k=0;
+
+	function str(value)
+	{
+		sa.push({key:value,c:value});
+	}
+	function num(value)
+	{
+		k++;
+		sa.push({key: value,c:value+k});
+	}  
+	function obj(element)
+	{
+		{
+			for(var i in element)
+				{
+					data={}
+				}
+				document.write(element[i]);
+		}
+	}
+	for (let i = 0;i<arrE.length; i++)
+	{
+		switch(typeof(arrE[i]))
+		{
+			case "number": num(arrE[i]);
+			break;
+			case "string": str(arrE[i]);
+			break;
+			case "object": obj(arrE[i]);
+			break;
+		}
+	}
+	for(let k=0;k<sa.length;k++)
+	{
+		document.write("key :"+sa[k].key + ", value :"+ sa[k].c);
+		document.write("<br/>");
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+

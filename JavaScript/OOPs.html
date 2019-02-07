@@ -1,0 +1,50 @@
+<html>
+
+<body>
+  
+  <script>
+  'use strict';
+  class A
+  {
+    spm()
+    {
+      
+      alert("Method Overriding class A");
+      
+    }
+
+    area(r)
+    {
+      alert("The area of the circle is : " + (r * r * Math.PI));
+    }
+
+    static myStaticMethod() 
+    {
+      return 'static method Hello';      
+    }
+  }
+
+  alert(A.myStaticMethod());
+  
+  
+  const myClassInstance = new A();
+  alert(myClassInstance.myStaticMethod + ": because , static methods can not be accesed by object");
+  
+
+  class B extends A
+  { 
+    spm()
+    {
+      alert("Method Overriding done here......");
+    }
+
+  }
+  alert(B.myStaticMethod()); 
+  let sp = new B();
+  sp.area(8);
+  sp.spm();
+
+  </script>
+</body>
+
+</html>
